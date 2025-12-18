@@ -1,0 +1,702 @@
+[
+  {
+    "trip_id": "trip_1",
+    "selected_path": "trip_1_p0",
+    "departure_time": 26,
+    "travel_time": 84.37,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_2",
+    "selected_path": "trip_2_p0",
+    "departure_time": 49,
+    "travel_time": 67.8,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_3",
+    "selected_path": "trip_3_p0",
+    "departure_time": 13,
+    "travel_time": 147.97,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_4",
+    "selected_path": "trip_4_p0",
+    "departure_time": 30,
+    "travel_time": 10.0,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_5",
+    "selected_path": "trip_5_p1",
+    "departure_time": 7,
+    "travel_time": 204.65,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_6",
+    "selected_path": "trip_6_p0",
+    "departure_time": 19,
+    "travel_time": 146.45,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_7",
+    "selected_path": "trip_7_p0",
+    "departure_time": 40,
+    "travel_time": 140.03,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_8",
+    "selected_path": "trip_8_p0",
+    "departure_time": 24,
+    "travel_time": 88.89,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_9",
+    "selected_path": "trip_9_p0",
+    "departure_time": 32,
+    "travel_time": 87.51,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_10",
+    "selected_path": "trip_10_p0",
+    "departure_time": 3,
+    "travel_time": 11.45,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_11",
+    "selected_path": "trip_11_p0",
+    "departure_time": 25,
+    "travel_time": 180.78,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_12",
+    "selected_path": "trip_12_p0",
+    "departure_time": 0,
+    "travel_time": 119.12,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_13",
+    "selected_path": "trip_13_p0",
+    "departure_time": 15,
+    "travel_time": 111.6,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_14",
+    "selected_path": "trip_14_p0",
+    "departure_time": 12,
+    "travel_time": 132.28,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_15",
+    "selected_path": "trip_15_p1",
+    "departure_time": 9,
+    "travel_time": 145.6,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_16",
+    "selected_path": "trip_16_p0",
+    "departure_time": 20,
+    "travel_time": 88.89,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_17",
+    "selected_path": "trip_17_p1",
+    "departure_time": 19,
+    "travel_time": 182.35,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_18",
+    "selected_path": "trip_18_p0",
+    "departure_time": 45,
+    "travel_time": 68.08,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_19",
+    "selected_path": "trip_19_p0",
+    "departure_time": 8,
+    "travel_time": 153.05,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_20",
+    "selected_path": "trip_20_p0",
+    "departure_time": 48,
+    "travel_time": 76.52,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_21",
+    "selected_path": "trip_21_p0",
+    "departure_time": 11,
+    "travel_time": 52.89,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_22",
+    "selected_path": "trip_22_p0",
+    "departure_time": 39,
+    "travel_time": 141.94,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_23",
+    "selected_path": "trip_23_p0",
+    "departure_time": 21,
+    "travel_time": 93.36,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_24",
+    "selected_path": "trip_24_p0",
+    "departure_time": 5,
+    "travel_time": 155.91,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_25",
+    "selected_path": "trip_25_p0",
+    "departure_time": 49,
+    "travel_time": 95.54,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_26",
+    "selected_path": "trip_26_p0",
+    "departure_time": 13,
+    "travel_time": 69.78,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_27",
+    "selected_path": "trip_27_p0",
+    "departure_time": 34,
+    "travel_time": 140.49,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_28",
+    "selected_path": "trip_28_p0",
+    "departure_time": 41,
+    "travel_time": 128.91,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_29",
+    "selected_path": "trip_29_p0",
+    "departure_time": 28,
+    "travel_time": 118.66,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_30",
+    "selected_path": "trip_30_p0",
+    "departure_time": 15,
+    "travel_time": 176.26,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_31",
+    "selected_path": "trip_31_p0",
+    "departure_time": 38,
+    "travel_time": 164.63,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_32",
+    "selected_path": "trip_32_p0",
+    "departure_time": 25,
+    "travel_time": 188.89,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_33",
+    "selected_path": "trip_33_p0",
+    "departure_time": 17,
+    "travel_time": 10.0,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_34",
+    "selected_path": "trip_34_p0",
+    "departure_time": 7,
+    "travel_time": 144.09,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_35",
+    "selected_path": "trip_35_p0",
+    "departure_time": 13,
+    "travel_time": 142.35,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_36",
+    "selected_path": "trip_36_p0",
+    "departure_time": 23,
+    "travel_time": 100.71,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_37",
+    "selected_path": "trip_37_p0",
+    "departure_time": 11,
+    "travel_time": 80.74,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_38",
+    "selected_path": "trip_38_p0",
+    "departure_time": 24,
+    "travel_time": 130.83,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_39",
+    "selected_path": "trip_39_p0",
+    "departure_time": 0,
+    "travel_time": 221.09,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_40",
+    "selected_path": "trip_40_p0",
+    "departure_time": 14,
+    "travel_time": 168.72,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_41",
+    "selected_path": "trip_41_p0",
+    "departure_time": 11,
+    "travel_time": 64.71,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_42",
+    "selected_path": "trip_42_p0",
+    "departure_time": 6,
+    "travel_time": 66.38,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_43",
+    "selected_path": "trip_43_p1",
+    "departure_time": 22,
+    "travel_time": 216.6,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_44",
+    "selected_path": "trip_44_p0",
+    "departure_time": 9,
+    "travel_time": 105.88,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_45",
+    "selected_path": "trip_45_p1",
+    "departure_time": 22,
+    "travel_time": 122.12,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_46",
+    "selected_path": "trip_46_p0",
+    "departure_time": 34,
+    "travel_time": 231.58,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_47",
+    "selected_path": "trip_47_p1",
+    "departure_time": 1,
+    "travel_time": 107.45,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_48",
+    "selected_path": "trip_48_p0",
+    "departure_time": 26,
+    "travel_time": 146.35,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_49",
+    "selected_path": "trip_49_p0",
+    "departure_time": 38,
+    "travel_time": 133.11,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_50",
+    "selected_path": "trip_50_p0",
+    "departure_time": 33,
+    "travel_time": 70.48,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_51",
+    "selected_path": "trip_51_p0",
+    "departure_time": 29,
+    "travel_time": 124.43,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_52",
+    "selected_path": "trip_52_p0",
+    "departure_time": 8,
+    "travel_time": 112.15,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_53",
+    "selected_path": "trip_53_p0",
+    "departure_time": 36,
+    "travel_time": 101.4,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_54",
+    "selected_path": "trip_54_p0",
+    "departure_time": 37,
+    "travel_time": 41.95,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_55",
+    "selected_path": "trip_55_p0",
+    "departure_time": 44,
+    "travel_time": 159.22,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_56",
+    "selected_path": "trip_56_p0",
+    "departure_time": 11,
+    "travel_time": 253.64,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_57",
+    "selected_path": "trip_57_p0",
+    "departure_time": 14,
+    "travel_time": 154.25,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_58",
+    "selected_path": "trip_58_p0",
+    "departure_time": 16,
+    "travel_time": 96.83,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_59",
+    "selected_path": "trip_59_p0",
+    "departure_time": 17,
+    "travel_time": 217.29,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_60",
+    "selected_path": "trip_60_p0",
+    "departure_time": 2,
+    "travel_time": 119.91,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_61",
+    "selected_path": "trip_61_p0",
+    "departure_time": 34,
+    "travel_time": 37.11,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_62",
+    "selected_path": "trip_62_p0",
+    "departure_time": 32,
+    "travel_time": 15.92,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_63",
+    "selected_path": "trip_63_p0",
+    "departure_time": 28,
+    "travel_time": 106.02,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_64",
+    "selected_path": "trip_64_p0",
+    "departure_time": 48,
+    "travel_time": 12.28,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_65",
+    "selected_path": "trip_65_p0",
+    "departure_time": 13,
+    "travel_time": 245.54,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_66",
+    "selected_path": "trip_66_p0",
+    "departure_time": 24,
+    "travel_time": 210.14,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_67",
+    "selected_path": "trip_67_p0",
+    "departure_time": 0,
+    "travel_time": 118.71,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_68",
+    "selected_path": "trip_68_p0",
+    "departure_time": 49,
+    "travel_time": 188.48,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_69",
+    "selected_path": "trip_69_p0",
+    "departure_time": 31,
+    "travel_time": 100.33,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_70",
+    "selected_path": "trip_70_p0",
+    "departure_time": 41,
+    "travel_time": 40.94,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_71",
+    "selected_path": "trip_71_p1",
+    "departure_time": 49,
+    "travel_time": 257.94,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_72",
+    "selected_path": "trip_72_p0",
+    "departure_time": 1,
+    "travel_time": 75.83,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_73",
+    "selected_path": "trip_73_p0",
+    "departure_time": 30,
+    "travel_time": 186.78,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_74",
+    "selected_path": "trip_74_p0",
+    "departure_time": 33,
+    "travel_time": 138.09,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_75",
+    "selected_path": "trip_75_p0",
+    "departure_time": 13,
+    "travel_time": 159.25,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_76",
+    "selected_path": "trip_76_p0",
+    "departure_time": 9,
+    "travel_time": 2.31,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_77",
+    "selected_path": "trip_77_p0",
+    "departure_time": 11,
+    "travel_time": 49.66,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_78",
+    "selected_path": "trip_78_p0",
+    "departure_time": 2,
+    "travel_time": 93.65,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_79",
+    "selected_path": "trip_79_p0",
+    "departure_time": 11,
+    "travel_time": 101.26,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_80",
+    "selected_path": "trip_80_p0",
+    "departure_time": 8,
+    "travel_time": 18.19,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_81",
+    "selected_path": "trip_81_p0",
+    "departure_time": 47,
+    "travel_time": 2.31,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_82",
+    "selected_path": "trip_82_p0",
+    "departure_time": 2,
+    "travel_time": 285.72,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_83",
+    "selected_path": "trip_83_p0",
+    "departure_time": 34,
+    "travel_time": 80.59,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_84",
+    "selected_path": "trip_84_p0",
+    "departure_time": 32,
+    "travel_time": 182.77,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_85",
+    "selected_path": "trip_85_p0",
+    "departure_time": 27,
+    "travel_time": 196.46,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_86",
+    "selected_path": "trip_86_p0",
+    "departure_time": 28,
+    "travel_time": 152.26,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_87",
+    "selected_path": "trip_87_p0",
+    "departure_time": 26,
+    "travel_time": 7.89,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_88",
+    "selected_path": "trip_88_p0",
+    "departure_time": 27,
+    "travel_time": 255.91,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_89",
+    "selected_path": "trip_89_p0",
+    "departure_time": 21,
+    "travel_time": 81.97,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_90",
+    "selected_path": "trip_90_p0",
+    "departure_time": 0,
+    "travel_time": 92.35,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_91",
+    "selected_path": "trip_91_p0",
+    "departure_time": 9,
+    "travel_time": 152.95,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_92",
+    "selected_path": "trip_92_p0",
+    "departure_time": 13,
+    "travel_time": 113.58,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_93",
+    "selected_path": "trip_93_p0",
+    "departure_time": 20,
+    "travel_time": 42.93,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_94",
+    "selected_path": "trip_94_p0",
+    "departure_time": 25,
+    "travel_time": 94.19,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_95",
+    "selected_path": "trip_95_p0",
+    "departure_time": 4,
+    "travel_time": 103.8,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_96",
+    "selected_path": "trip_96_p0",
+    "departure_time": 29,
+    "travel_time": 116.22,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_97",
+    "selected_path": "trip_97_p0",
+    "departure_time": 10,
+    "travel_time": 201.18,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_98",
+    "selected_path": "trip_98_p0",
+    "departure_time": 4,
+    "travel_time": 7.38,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_99",
+    "selected_path": "trip_99_p0",
+    "departure_time": 21,
+    "travel_time": 88.89,
+    "FP_normalized": 1.0
+  },
+  {
+    "trip_id": "trip_100",
+    "selected_path": "trip_100_p0",
+    "departure_time": 16,
+    "travel_time": 70.66,
+    "FP_normalized": 1.0
+  }
+]
