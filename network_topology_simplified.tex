@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage[margin=1in]{geometry}
+\usetikzlibrary{arrows.meta,positioning}
+
+\begin{document}
+
+\section*{Northern Italy Highway Network - Simplified View}
+
+Showing 51 major nodes and 78 key highway connections.
+
+\begin{center}
+\begin{tikzpicture}[scale=0.9]
+
+  \tikzstyle{border}=[circle, fill=blue!70, draw=black, inner sep=2pt, minimum size=10pt]
+  \tikzstyle{tourist}=[circle, fill=green!70, draw=black, inner sep=2pt, minimum size=8pt]
+  \tikzstyle{highdemand}=[circle, fill=orange!70, draw=black, inner sep=2pt, minimum size=8pt]
+  \tikzstyle{highway}=[draw=black, line width=1.2pt]
+
+  % Major highway connections
+  \draw[highway] (5.24,4.87) -- (3.11,2.25);
+  \draw[highway] (5.24,4.87) -- (5.95,5.61);
+  \draw[highway] (6.57,11.59) -- (6.63,12.98);
+  \draw[highway] (6.57,11.59) -- (6.69,11.45);
+  \draw[highway] (6.69,11.45) -- (6.77,11.36);
+  \draw[highway] (6.69,11.45) -- (6.69,11.27);
+  \draw[highway] (6.77,11.36) -- (6.83,11.28);
+  \draw[highway] (6.83,11.28) -- (6.88,10.66);
+  \draw[highway] (6.31,5.51) -- (5.95,5.61);
+  \draw[highway] (6.77,11.36) -- (7.17,11.49);
+  \draw[highway] (7.17,11.49) -- (7.12,10.82);
+  \draw[highway] (7.12,10.82) -- (6.88,10.66);
+  \draw[highway] (7.17,11.49) -- (7.45,11.59);
+  \draw[highway] (7.45,11.59) -- (7.58,11.22);
+  \draw[highway] (7.58,11.22) -- (7.31,10.36);
+  \draw[highway] (7.12,10.82) -- (7.31,10.36);
+  \draw[highway] (6.31,5.51) -- (8.61,3.84);
+  \draw[highway] (9.50,2.77) -- (8.61,3.84);
+  \draw[highway] (11.47,14.20) -- (11.02,10.72);
+  \draw[highway] (9.44,11.23) -- (11.02,10.72);
+  \draw[highway] (9.99,2.49) -- (9.50,2.77);
+  \draw[highway] (9.67,2.20) -- (9.50,2.77);
+  \draw[highway] (9.72,1.36) -- (9.67,2.20);
+  \draw[highway] (9.99,2.49) -- (9.67,2.20);
+  \draw[highway] (11.58,2.47) -- (9.99,2.49);
+  \draw[highway] (11.74,1.91) -- (11.58,2.47);
+  \draw[highway] (11.93,0.00) -- (11.74,1.91);
+  \draw[highway] (13.03,0.43) -- (11.74,1.91);
+  \draw[highway] (14.38,11.60) -- (13.74,10.93);
+  \draw[highway] (14.25,11.65) -- (14.38,11.60);
+  \draw[highway] (13.74,10.93) -- (14.25,11.65);
+  \draw[highway] (16.72,1.23) -- (15.53,2.83);
+  \draw[highway] (0.00,14.86) -- (2.78,12.46);
+  \draw[highway] (2.78,12.46) -- (0.00,14.86);
+  \draw[highway] (1.52,9.63) -- (1.20,9.04);
+  \draw[highway] (1.20,9.04) -- (1.52,9.63);
+  \draw[highway] (2.50,1.79) -- (3.11,2.25);
+  \draw[highway] (3.11,2.25) -- (2.50,1.79);
+  \draw[highway] (6.08,14.86) -- (4.93,14.49);
+  \draw[highway] (4.93,14.49) -- (6.08,14.86);
+  \draw[highway] (6.43,13.82) -- (6.63,12.98);
+  \draw[highway] (6.63,12.98) -- (6.43,13.82);
+  \draw[highway] (11.92,16.43) -- (11.47,14.20);
+  \draw[highway] (11.47,14.20) -- (11.92,16.43);
+  \draw[highway] (17.60,11.46) -- (17.76,11.63);
+  \draw[highway] (17.76,11.63) -- (17.60,11.46);
+  \draw[highway] (3.11,2.25) -- (5.24,4.87);
+  \draw[highway] (5.95,5.61) -- (5.24,4.87);
+  \draw[highway] (6.63,12.98) -- (6.57,11.59);
+  \draw[highway] (6.69,11.45) -- (6.57,11.59);
+  \draw[highway] (6.77,11.36) -- (6.69,11.45);
+  \draw[highway] (6.69,11.27) -- (6.69,11.45);
+  \draw[highway] (6.83,11.28) -- (6.77,11.36);
+  \draw[highway] (6.88,10.66) -- (6.83,11.28);
+  \draw[highway] (5.95,5.61) -- (6.31,5.51);
+  \draw[highway] (7.17,11.49) -- (6.77,11.36);
+  \draw[highway] (7.12,10.82) -- (7.17,11.49);
+  \draw[highway] (6.88,10.66) -- (7.12,10.82);
+  \draw[highway] (7.45,11.59) -- (7.17,11.49);
+  \draw[highway] (7.58,11.22) -- (7.45,11.59);
+  \draw[highway] (7.31,10.36) -- (7.58,11.22);
+  \draw[highway] (7.31,10.36) -- (7.12,10.82);
+  \draw[highway] (8.61,3.84) -- (6.31,5.51);
+  \draw[highway] (8.61,3.84) -- (9.50,2.77);
+  \draw[highway] (11.02,10.72) -- (11.47,14.20);
+  \draw[highway] (11.02,10.72) -- (9.44,11.23);
+  \draw[highway] (9.50,2.77) -- (9.99,2.49);
+  \draw[highway] (9.50,2.77) -- (9.67,2.20);
+  \draw[highway] (9.67,2.20) -- (9.72,1.36);
+  \draw[highway] (9.67,2.20) -- (9.99,2.49);
+  \draw[highway] (9.99,2.49) -- (11.58,2.47);
+  \draw[highway] (11.58,2.47) -- (11.74,1.91);
+  \draw[highway] (11.74,1.91) -- (11.93,0.00);
+  \draw[highway] (11.74,1.91) -- (13.03,0.43);
+  \draw[highway] (13.74,10.93) -- (14.38,11.60);
+  \draw[highway] (14.38,11.60) -- (14.25,11.65);
+  \draw[highway] (14.25,11.65) -- (13.74,10.93);
+  \draw[highway] (15.53,2.83) -- (16.72,1.23);
+
+  % Major network nodes
+  \node[border] (chf) at (0.00,14.86) {};
+  \node[above=2pt of chf, font=\small] {Svizzera/Francia};
+  \node[tourist] (1) at (2.78,12.46) {};
+  \node[above=2pt of 1, font=\small] {Barriera di Aosta};
+  \node[border] (fr1) at (1.52,9.63) {};
+  \node[above=2pt of fr1, font=\small] {Francia Media};
+  \node[tourist] (5) at (1.20,9.04) {};
+  \node[above=2pt of 5, font=\small] {Bardonecchia};
+  \node[tourist] (6) at (3.27,8.71) {};
+  \node[above=2pt of 6, font=\small] {Beinasco};
+  \node[tourist] (11) at (5.24,4.87) {};
+  \node[above=2pt of 11, font=\small] {Savona};
+  \node[border] (fr2) at (2.50,1.79) {};
+  \node[above=2pt of fr2, font=\small] {Francia Bassa};
+  \node[tourist] (12) at (3.11,2.25) {};
+  \node[above=2pt of 12, font=\small] {Ventimiglia};
+  \node[tourist] (20) at (5.95,5.61) {};
+  \node[above=2pt of 20, font=\small] {Voltri};
+  \node[border] (ch1) at (6.08,14.86) {};
+  \node[above=2pt of ch1, font=\small] {Svizzera OccIDentale};
+  \node[tourist] (21) at (4.93,14.49) {};
+  \node[above=2pt of 21, font=\small] {Domodossola};
+  \node[border] (ch2) at (6.43,13.82) {};
+  \node[above=2pt of ch2, font=\small] {Lugano};
+  \node[tourist] (23) at (6.63,12.98) {};
+  \node[above=2pt of 23, font=\small] {Como};
+  \node[highdemand] (24) at (6.57,11.59) {};
+  \node[above=2pt of 24, font=\small] {Varese};
+  \node[highdemand] (25) at (6.69,11.45) {};
+  \node[above=2pt of 25, font=\small] {Milano- Arese};
+  \node[highdemand] (25-b) at (6.77,11.36) {};
+  \node[above=2pt of 25-b, font=\small] {Milano Bollate};
+  \node[highdemand] (25-d) at (6.83,11.28) {};
+  \node[above=2pt of 25-d, font=\small] {Milano Vialba};
+  \node[highdemand] (25-c) at (6.69,11.27) {};
+  \node[above=2pt of 25-c, font=\small] {Milano Ghisolfa};
+  \node[highdemand] (26) at (6.88,10.66) {};
+  \node[above=2pt of 26, font=\small] {Milano Rozzano};
+  \node[tourist] (29) at (6.31,5.51) {};
+  \node[above=2pt of 29, font=\small] {Genova};
+  \node[highdemand] (30) at (7.17,11.49) {};
+  \node[above=2pt of 30, font=\small] {Barriera Milano Est};
+  \node[highdemand] (31) at (7.12,10.82) {};
+  \node[above=2pt of 31, font=\small] {San Donato};
+  \node[highdemand] (32) at (7.45,11.59) {};
+  \node[above=2pt of 32, font=\small] {Monza};
+  \node[highdemand] (33) at (7.58,11.22) {};
+  \node[above=2pt of 33, font=\small] {Pozzuolo Martesana};
+  \node[highdemand] (34) at (7.31,10.36) {};
+  \node[above=2pt of 34, font=\small] {Melegnano};
+  \node[tourist] (38) at (8.61,3.84) {};
+  \node[above=2pt of 38, font=\small] {La Spezia};
+  \node[highdemand] (41) at (9.44,11.23) {};
+  \node[above=2pt of 41, font=\small] {Brescia Centro};
+  \node[border] (au) at (11.92,16.43) {};
+  \node[above=2pt of au, font=\small] {Austria-Bolzano};
+  \node[tourist] (44) at (11.47,14.20) {};
+  \node[above=2pt of 44, font=\small] {Trento};
+  \node[highdemand] (45) at (11.02,10.72) {};
+  \node[above=2pt of 45, font=\small] {Verona};
+  \node[tourist] (48) at (9.50,2.77) {};
+  \node[above=2pt of 48, font=\small] {Viareggio};
+  \node[tourist] (49) at (9.67,2.20) {};
+  \node[above=2pt of 49, font=\small] {Pisa};
+  \node[tourist] (50) at (9.99,2.49) {};
+  \node[above=2pt of 50, font=\small] {Lucca};
+  \node[tourist] (51) at (9.72,1.36) {};
+  \node[above=2pt of 51, font=\small] {Livorno};
+  \node[tourist] (52) at (11.58,2.47) {};
+  \node[above=2pt of 52, font=\small] {Firenze};
+  \node[tourist] (53) at (11.74,1.91) {};
+  \node[above=2pt of 53, font=\small] {Firenze sud};
+  \node[tourist] (54) at (11.93,0.00) {};
+  \node[above=2pt of 54, font=\small] {Siena};
+  \node[tourist] (55) at (13.03,0.43) {};
+  \node[above=2pt of 55, font=\small] {Arezzo};
+  \node[border] (au2) at (15.90,18.00) {};
+  \node[above=2pt of au2, font=\small] {Austria Orientale};
+  \node[tourist] (66) at (15.53,2.83) {};
+  \node[above=2pt of 66, font=\small] {Pesaro};
+  \node[tourist] (67) at (16.72,1.23) {};
+  \node[above=2pt of 67, font=\small] {Ancona};
+  \node[tourist] (68) at (13.93,5.56) {};
+  \node[above=2pt of 68, font=\small] {Ravenna};
+  \node[tourist] (69) at (14.07,7.00) {};
+  \node[above=2pt of 69, font=\small] {Delta del Po};
+  \node[tourist] (70) at (13.74,10.93) {};
+  \node[above=2pt of 70, font=\small] {Cazzago-Ex Polo};
+  \node[tourist] (71) at (14.25,11.65) {};
+  \node[above=2pt of 71, font=\small] {Monigliano Veneto};
+  \node[tourist] (72) at (14.38,11.60) {};
+  \node[above=2pt of 72, font=\small] {Quarto d'Altino};
+  \node[highdemand] (73) at (14.36,13.19) {};
+  \node[above=2pt of 73, font=\small] {San Vendemiano};
+  \node[border] (au3) at (18.00,16.95) {};
+  \node[above=2pt of au3, font=\small] {Villach + Austria Orientale};
+  \node[border] (slo1) at (17.42,13.61) {};
+  \node[above=2pt of slo1, font=\small] {Nova Gorica + Sloveniacentrale};
+  \node[border] (slo2) at (17.60,11.46) {};
+  \node[above=2pt of slo2, font=\small] {Istria + Croazia};
+  \node[tourist] (80) at (17.76,11.63) {};
+  \node[above=2pt of 80, font=\small] {Trieste};
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

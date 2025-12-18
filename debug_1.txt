@@ -1,0 +1,144 @@
+
+🔧 Iterative Parameters:
+   Max iterations: 3
+   Convergence threshold: 5.0%
+
+======================================================================
+ITERATION 1/3
+======================================================================
+
+📊 Instance Statistics (Iteration 1):
+   Total Demand: 460,367
+   CTP Options: 35,800
+   Arcs: 232
+   Time Slots: 108
+
+======================================================================
+OPTIMIZATION (Iteration 1): Minimize TSTT
+======================================================================
+
+⏳ Solving...
+
+======================================================================
+Termination: optimal
+Time: 64.3s (1.1 minutes)
+
+📊 Iteration 1 Results:
+   TSTT (unscaled): 51,397,598.29
+   TSTT (scaled): 6,795,106.63
+   Assignment: 65.0%
+   Unmet: 161,014
+   Avg Inconvenience: 2.4168
+
+======================================================================
+ITERATION 2/3
+======================================================================
+
+📊 Instance Statistics (Iteration 2):
+   Total Demand: 460,367
+   CTP Options: 32,895
+   Arcs: 232
+   Time Slots: 108
+
+======================================================================
+OPTIMIZATION (Iteration 2): Minimize TSTT
+======================================================================
+
+⏳ Solving...
+
+======================================================================
+Termination: optimal
+Time: 73.9s (1.2 minutes)
+
+📊 Iteration 2 Results:
+   TSTT (unscaled): 26,077,868.00
+   TSTT (scaled): 3,447,668.75
+   Assignment: 34.8%
+   Unmet: 299,993
+   Avg Inconvenience: 2.1348
+
+🔍 Convergence Check:
+   Previous TSTT: 51,397,598.29
+   Current TSTT: 26,077,868.00
+   Change: 49.26%
+
+⚠️ Not converged yet. Continuing...
+
+======================================================================
+ITERATION 3/3
+======================================================================
+
+📊 Instance Statistics (Iteration 3):
+   Total Demand: 460,367
+   CTP Options: 32,782
+   Arcs: 232
+   Time Slots: 108
+
+======================================================================
+OPTIMIZATION (Iteration 3): Minimize TSTT
+======================================================================
+
+⏳ Solving...
+
+======================================================================
+Termination: optimal
+Time: 71.6s (1.2 minutes)
+
+📊 Iteration 3 Results:
+   TSTT (unscaled): 21,761,850.84
+   TSTT (scaled): 2,877,062.39
+   Assignment: 31.0%
+   Unmet: 317,569
+   Avg Inconvenience: 1.8943
+
+🔍 Convergence Check:
+   Previous TSTT: 26,077,868.00
+   Current TSTT: 21,761,850.84
+   Change: 16.55%
+
+⚠️ Not converged yet. Continuing...
+
+======================================================================
+📊 COMPUTING COMPREHENSIVE STATISTICS
+======================================================================
+
+📊 Overall Statistics:
+   Ave_Ave_Flow: 99.56
+   Ave_Ave_Util: 35.75
+   Ave_Max_Flow: 226.30
+   Ave_Max_Util: 81.06
+   Ave_AumentoTTArco: 6.58
+   Max_Ave_Flow: 639.71
+   Max_Ave_Util: 232.62
+   Max_Max_Flow: 639.71
+   Max_Max_Util: 232.62
+   Max_AumentoTTArco: 247.32
+   Inconvenience_ave: 1.89
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+
+🔁 Iterations completed: 3
+
+📊 TSTT Evolution:
+   Iteration 1: 51,397,598.29
+   Iteration 2: 26,077,868.00
+      Change from previous: -49.26%
+   Iteration 3: 21,761,850.84
+      Change from previous: -16.55%
+
+📉 Convergence History:
+   Iteration 2: 49.26% change
+   Iteration 3: 16.55% change
+
+✅ FINAL METRICS:
+   TSTT: 21,761,850.84
+   Inconvenience: 1.8943
+   Assignment Rate: 31.0%
+   Unmet Demand: 317,569
+
+💾 Exporting results...
+
+💾 Results saved to: solution_250_MEDIUM.xlsx
+   Sheets: Summary, Convergence, Arc_Statistics, Assignments

@@ -1,0 +1,64 @@
+{
+    "edges": [
+        {
+            "from": "N1",
+            "to": "N2",
+            "fftt": 20,
+            "capacity": 250
+        },
+        {
+            "from": "N2",
+            "to": "N3",
+            "fftt": 22,
+            "capacity": 250
+        },
+        {
+            "from": "N3",
+            "to": "N4",
+            "fftt": 20,
+            "capacity": 150
+        },
+        {
+            "from": "N4",
+            "to": "N5",
+            "fftt": 20,
+            "capacity": 150
+        },
+        {
+            "from": "N4",
+            "to": "N6",
+            "fftt": 20,
+            "capacity": 150
+        },
+        {
+            "from": "N2",
+            "to": "N4",
+            "fftt": 20,
+            "capacity": 150
+        },
+        {
+            "from": "N2",
+            "to": "N5",
+            "fftt": 24,
+            "capacity": 250
+        },
+        {
+            "from": "N3",
+            "to": "N6",
+            "fftt": 24,
+            "capacity": 250
+        },
+        {
+            "from": "N5",
+            "to": "N6",
+            "fftt": 24,
+            "capacity": 250
+        },
+        {
+            "from": "N6",
+            "to": "N7",
+            "fftt": 20,
+            "capacity": 250
+        }
+    ]
+}
